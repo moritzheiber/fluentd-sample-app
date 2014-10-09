@@ -1,0 +1,44 @@
+<div class="pure-g">
+  <div class="pure-u-1-2 center" data-species="puppy">
+    <figure class="embed">
+      <img class="pure-img animal centered" data-caption="A test for captions" data-method="image" src="/img/<%= @p_name %>" alt="" />
+      <figcaption>
+        &copy; <a href="<%= @p_info['url'] %>" target="_blank"><%= @p_info['name'] %></a> under <a href="<%= @p_info['license']['url'] %>" target="_blank"><%= @p_info['license']['name'] %></a>
+      </figcaption>
+    </figure>
+    <br />
+    <button data-method="button" class="animal button-success pure-button button-margin">Puppy!</button>
+  </div>
+  <div class="pure-u-1-2 center" data-species="kitten">
+    <figure class="embed">
+      <img class="pure-img animal centered" data-method="image" src="/img/<%= @k_name %>" alt="" />
+      <figcaption>
+         &copy; <a href="<%= @k_info['url'] %>" target="_blank"><%= @k_info['name'] %></a> under <a href="<%= @k_info['license']['url'] %>" target="_blank"><%= @k_info['license']['name'] %></a>
+      </figcation>
+    </figure>
+    <br />
+    <button data-method='button' class="animal button-success pure-button button-margin">Kitten!</button>
+  </div>
+</div>
+<script>
+$('.animal').click(function(){
+    var species = $(this).closest('div').data('species');
+    var method = $(this).data('method');
+
+    $.ajax
+    ({ 
+        url: '/result',
+        data: {
+          "species": species,
+          "method": method,
+          "puppy": "<%= @p_name %>",
+          "kitten": "<%= @k_name %>"
+        },
+        type: 'post',
+        success: function(result)
+        {
+          location.reload();
+        }
+    });
+});
+</script>

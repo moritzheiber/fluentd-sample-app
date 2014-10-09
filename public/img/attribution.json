@@ -1,0 +1,86 @@
+{
+  "kittens": {
+    "kitten1.jpg": {
+      "license": {
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/suckamc/",
+      "name": "Martin Cathrae"
+    },
+    "kitten2.jpg": {
+      "license": {
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/londonlooks/",
+      "name": "London looks"
+    },
+    "kitten3.jpg": {
+      "license": {
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/dirigentens/",
+      "name": "Mikael Tigerström"
+    },
+    "kitten4.jpg": {
+      "license": {
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/nicsuzor/",
+      "name": "Nicolas Suzor"
+    },
+    "kitten5.jpg": {
+      "license": {
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/fourdoxn/",
+      "name": "Four Doxn"
+    }
+  },
+  "puppies": {
+    "puppy1.jpg": {
+      "license": {
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/"
+        },
+      "url": "https://www.flickr.com/photos/mytalkingtree/",
+      "name": "Jennifer"
+    },
+    "puppy2.jpg": {
+      "license": {
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/jantruter/",
+      "name": "Jan Truter"
+    },
+    "puppy3.jpg": {
+      "license": {
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/digimist/",
+      "name": "Digimist"
+    },
+    "puppy4.jpg": {
+      "license": {
+        "name": "CC BY-NC 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/sebastian-silva/",
+      "name": "Sebastián Dario"
+    },
+    "puppy5.jpg": {
+      "license": {
+        "name": "CC BY-NC-ND 2.0",
+        "url": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+      },
+      "url": "https://www.flickr.com/photos/ellenlove/",
+      "name": "Lil' El"
+    }
+  }
+}

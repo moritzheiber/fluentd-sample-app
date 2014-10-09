@@ -1,0 +1,38 @@
+<head>
+  <title>Cute-o-matic</title>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css" />
+  <link rel="stylesheet" href="/css/captionss.min.css" />
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+
+  <style type="text/css">
+    h1 { text-align:center; }
+    .centered { display:block; margin-left: auto; margin-right: auto; }
+    .center { text-align:center; }
+    .animals { vertical-align:middle; }
+    img.animal { cursor: pointer; cursor: hand; }
+
+    .button-margin { margin-top: 1%; }
+
+    .button-success,
+    .button-error {
+      color: white;
+      border-radius: 4px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      font-size:200%;
+    } 
+    .button-success {
+      background: rgb(28, 184, 65);
+    }
+    .button-error {
+      background: rgb(202, 60, 60);
+    }
+  </style>
+</head>
+<body>
+<h1>Who's the cutest?</h1>
+<%= yield %>
+</body>
